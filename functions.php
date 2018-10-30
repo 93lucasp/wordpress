@@ -12,6 +12,6 @@
     
     register_nav_menu('main', 'Main navigation menu');
     
-    
+    query_posts( array( 'post_type' => array('post', 'portfolio') ) );
 
 ?>
